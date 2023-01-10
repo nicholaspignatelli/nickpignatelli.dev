@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import Title from "../../styled/Title.styled";
-import SingleColumn from "../../styled/SingleColumn.styled";
 import StyledGridItem from "../../components/GridItem/styled/StyledGridItem";
 
 const About = () => {
@@ -16,15 +15,19 @@ const About = () => {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     place-items: center;
-    /* background-color: var(--prime-
-      color); */
     margin-bottom: 1rem;
     padding: var(--py) var(--px);
-
     color: var(--prime-color);
     height: auto;
+  `;
 
-    /* grid-area: content2; */
+  const SingleColumn = styled.div`
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+    @media only screen and (max-width: 550px) {
+      grid-template-columns: auto;
+    }
   `;
   return (
     <>
