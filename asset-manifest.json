@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/nicholaspignatelli.dev/static/css/main.4fdf2941.css",
+    "main.js": "/nicholaspignatelli.dev/static/js/main.991775da.js",
+    "static/media/profile-pic.jpg": "/nicholaspignatelli.dev/static/media/profile-pic.4ae42acc200e5f66c01f.jpg",
+    "index.html": "/nicholaspignatelli.dev/index.html",
+    "main.4fdf2941.css.map": "/nicholaspignatelli.dev/static/css/main.4fdf2941.css.map",
+    "main.991775da.js.map": "/nicholaspignatelli.dev/static/js/main.991775da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fdf2941.css",
+    "static/js/main.991775da.js"
+  ]
+}
