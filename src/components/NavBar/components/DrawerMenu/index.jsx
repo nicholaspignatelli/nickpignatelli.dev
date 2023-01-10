@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import StyledListItem from "./styled/StyledListItem";
-import StyledUnorderedList from "../../../../styled/StyledUnorderedList";
+import StyledUnorderedList from "./styled/StyledUnorderedList";
 import BurgerMenuIcon from "./components/BurgerMenuIcon";
 import CloseIcon from "./components/CloseIcon";
 
