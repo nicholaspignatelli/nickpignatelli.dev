@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import StyledGridItem from "../../components/GridItem/styled/StyledGridItem";
 import ProjectCard from "../../components/ProjectCard";
 import Title from "../../styled/Title.styled";

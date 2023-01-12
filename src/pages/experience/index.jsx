@@ -1,6 +1,5 @@
 import StyledGridItem from "../../components/GridItem/styled/StyledGridItem";
 import StyledTimelineContainer from "../../components/TimelineContainer/styled/StyledTimelineContainer";
-
 import Title from "../../styled/Title.styled";
 
 const Experience = ({ jobs }) => {
