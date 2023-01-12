@@ -39,36 +39,38 @@ const TimelineItem = ({
   const CompanyLabel = styled.p`
     font-size: var(--text-lvl-5);
     :before {
-      content: "@ ";
+      content: "at ";
     }
   `;
 
   const DescriptionPoint = styled.p`
-    text-indent: -1rem;
-    margin-left: 1rem;
-    :before {
-      content: "• ";
+    /* gives us visual separation between job description points */
+    :after {
+      content: "";
+      display: block;
+      margin-bottom: 0.5rem;
     }
   `;
 
-  const Skill = styled.span`
-    font-size: var(--text-lvl-small);
-    background: var(--prime-color);
-    color: var(--bg-color);
-    margin-right: 1rem;
+  const Description = styled.div`
     margin-left: 1rem;
+  `;
+
+  const Skill = styled.div`
+    font-size: var(--text-lvl-small);
+    border: 0.03rem solid var(--prime-color-a50);
+    border-radius: 0.33rem;
+    color: var(--prime-color);
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+
     letter-spacing: 0.03rem;
     :last-child {
       margin-right: 0;
     }
 
-    padding: 0.1rem 0.2rem;
-  `;
-
-  const SkillRow = styled.div`
-    /* text-overflow: ellipsis; */
-    overflow: hidden;
-    white-space: nowrap;
+    padding: 0.2rem 0.33rem;
   `;
 
   return (
@@ -76,14 +78,14 @@ const TimelineItem = ({
       <DateLabel />
       <JobTitle>{title}</JobTitle>
       <CompanyLabel>{company}</CompanyLabel>
-      {description.map((point) => (
-        <DescriptionPoint>{point}</DescriptionPoint>
-      ))}
-      <SkillRow>
-        {techStack.map((skill) => (
-          <Skill>{skill}</Skill>
+      <Description>
+        {description.map((point) => (
+          <DescriptionPoint>{point}</DescriptionPoint>
         ))}
-      </SkillRow>
+      </Description>
+      {techStack.map((skill) => (
+        <Skill>{skill}</Skill>
+      ))}
     </div>
   );
 };
