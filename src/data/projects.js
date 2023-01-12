@@ -10,10 +10,12 @@ const projects = [
     description: "A MERN stack app to help me stay organized in the kitchen!",
   },
   {
-    name: "babel",
-    link: "https://github.com/nicholaspignatelli/",
-    description: "lorem ipsum dolor your mom",
+    name: "mern-crud-app",
+    link: "https://github.com/nicholaspignatelli/mern-crud-app",
+    description:
+      "Create/Read/Update/Delete with mongodb, express, react, and node.",
   },
+  { name: "there's more...", link: "https://github.com/nicholaspignatelli" },
 ];
 
 export default projects;
