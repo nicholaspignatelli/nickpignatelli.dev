@@ -31,7 +31,7 @@ const ProjectCard = ({ name, link, description }) => {
     <Div>
       <SpaceBetween>
         <ProjectTitle>{name}</ProjectTitle>
-        <a href={link} target="_blank">
+        <a href={link} target="_blank" rel="noreferrer">
           <Link />
         </a>
       </SpaceBetween>
