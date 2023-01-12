@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { TypeAnimation } from "react-type-animation";
-import StyledGridItem from "../../components/GridItem/styled/StyledGridItem";
+import StyledGridItem from "../components/GridItem/styled/StyledGridItem";
 
 const BeforeText = styled.h5`
   font-size: var(--text-lvl-4);
@@ -90,7 +90,7 @@ const Home = ({ beforeText, title, headlines, actions }) => {
         <div>
           <ShadowImage
             width={220}
-            img={require("../../assets/profile-pic.jpg")}
+            img={require("../assets/profile-pic.jpg")}
             alt="snowmobile"
           />
         </div>

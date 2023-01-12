@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import Title from "../../styled/Title.styled";
-import StyledGridItem from "../../components/GridItem/styled/StyledGridItem";
-import StyledSkill from "../../components/Skill/styled/StyledSkill";
-import about from "../../data/about";
+import Title from "../styled/Title.styled";
+import StyledGridItem from "../components/GridItem/styled/StyledGridItem";
+import StyledSkill from "../components/Skill/styled/StyledSkill";
+import about from "../data/about";
 
 const About = () => {
   const ThreeByTwoGrid = styled.div`

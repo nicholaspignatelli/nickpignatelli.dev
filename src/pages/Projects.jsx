@@ -1,6 +1,6 @@
-import StyledGridItem from "../../components/GridItem/styled/StyledGridItem";
-import ProjectCard from "../../components/ProjectCard";
-import Title from "../../styled/Title.styled";
+import StyledGridItem from "../components/GridItem/styled/StyledGridItem";
+import ProjectCard from "../components/ProjectCard";
+import Title from "../styled/Title.styled";
 
 const Projects = ({ projects }) => {
   return (
