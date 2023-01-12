@@ -5,10 +5,10 @@ import StyledGridItem from "../../components/GridItem/styled/StyledGridItem";
 const BeforeText = styled.h5`
   font-size: var(--text-lvl-4);
 `;
+
 const Title = styled.h1`
   font-size: var(--text-lvl-2);
-  font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.25;
 `;
 
 const Headline = styled.h3`
@@ -17,7 +17,7 @@ const Headline = styled.h3`
 `;
 
 const Hero = styled.div`
-  min-height: 100vh;
+  min-height: 80vh;
 
   display: flex;
   align-items: center;
@@ -35,7 +35,7 @@ const RoundImage = ({ className, img, width, border }) => {
         width: width,
         height: width,
         border: border,
-        borderRadius: "50%",
+        borderRadius: "48.5%",
         overflow: "hidden",
       }}
     >
@@ -64,13 +64,19 @@ const Home = ({ beforeText, title, headlines, actions }) => {
                 2150,
                 "A CSS Wrangler",
                 2150,
-                "A Lover of Life",
+                "SOLID Programmer",
                 2150,
                 "A Team Player",
                 2150,
-                "Agile Friendly",
+                "Agile Trained",
                 2150,
                 "Loves Typography",
+                2150,
+                "Morale Booster",
+                2150,
+                "Has B. Computing",
+                2150,
+                "Avoids Dependencies",
                 2150,
               ]}
               speed={51}
@@ -83,7 +89,7 @@ const Home = ({ beforeText, title, headlines, actions }) => {
 
         <div>
           <ShadowImage
-            width={350}
+            width={220}
             img={require("../../assets/profile-pic.jpg")}
             alt="snowmobile"
           />
