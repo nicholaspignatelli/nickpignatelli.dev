@@ -1,14 +1,7 @@
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Experience from "./pages/Experience";
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-
+import { About, Contact, Experience, Home, Projects } from "./pages";
 import StyledSidebar from "./components/Sidebar/styled/StyledSidebar";
 import StyledNavBar from "./components/NavBar/styled/StyledNavBar.styled";
-
 import StyledGridContainer from "./components/GridContainer/styled/StyledGridContainer";
-
 // Data
 import projects from "./data/projects";
 import jobs from "./data/jobs";
