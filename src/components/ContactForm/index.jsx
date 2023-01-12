@@ -32,20 +32,17 @@ const ContactForm = () => {
     >
       {({ errors, touched }) => (
         <Form>
-          <p>Connect with me</p>
-          <p>Reach out if you want to chat!</p>
-
           <StyledOneToThreeGrid>
             <label htmlFor="name">Name</label>
-            <StyledField name="name" />
+            <StyledField name="name" placeholder="Alice Robertson" />
             {errors.name && touched.name && (
               <StyledErrorText>{errors.name}</StyledErrorText>
             )}
           </StyledOneToThreeGrid>
 
           <StyledOneToThreeGrid>
-            <label htmlFor="subject">subject</label>
-            <StyledField name="subject" />
+            <label htmlFor="subject">Subject</label>
+            <StyledField name="subject" placeholder="just saying hi..." />
             {errors.subject && touched.subject && (
               <StyledErrorText>{errors.subject}</StyledErrorText>
             )}
@@ -53,7 +50,12 @@ const ContactForm = () => {
 
           <StyledOneToThreeGrid>
             <label htmlFor="message">Message</label>
-            <StyledField name="message" />
+            <StyledField
+              name="message"
+              component="textarea"
+              rows="6"
+              placeholder="Hi Nick! I wanted to ..."
+            />
             {errors.message && touched.message && (
               <StyledErrorText>{errors.message}</StyledErrorText>
             )}

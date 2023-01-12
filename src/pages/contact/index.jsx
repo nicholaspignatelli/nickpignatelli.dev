@@ -6,6 +6,8 @@ const Contact = () => (
   <StyledGridItem gridArea="contact" id="Contact">
     <div>
       <Title>Contact</Title>
+      <p style={{ fontSize: "var(--text-lvl-4" }}>Connect with me</p>
+      <p>Reach out if you want to chat!</p>
       <ContactForm />
     </div>
   </StyledGridItem>
