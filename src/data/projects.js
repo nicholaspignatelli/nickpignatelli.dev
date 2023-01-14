@@ -10,8 +10,8 @@ const projects = [
     description: "A MERN stack app to help me stay organized in the kitchen!",
   },
   {
-    name: "mern-crud-app",
-    link: "https://github.com/nicholaspignatelli/mern-crud-app",
+    name: "mern-todo-app",
+    link: "https://github.com/nicholaspignatelli/mern-todo-app",
     description:
       "Create/Read/Update/Delete with mongodb, express, react, and node.",
   },
