@@ -1,12 +1,12 @@
 const projects = [
   {
     name: "virtual-keyboard",
-    link: "https://github.com/nicholaspignatelli/virtual-keyboard",
-    description: "A simple qwerty keyboard rendered in the dom.",
+    link: "https://nickpignatelli-virtual-keyboard.netlify.app",
+    description: "A simple QWERTY keyboard rendered in the DOM.",
   },
   {
     name: "helpings",
-    link: "https://github.com/nicholaspignatelli/",
+    link: "https://github.com/nicholaspignatelli/helpings",
     description: "A MERN stack app to help me stay organized in the kitchen!",
   },
   {
@@ -15,7 +15,10 @@ const projects = [
     description:
       "Create/Read/Update/Delete with mongodb, express, react, and node.",
   },
-  { name: "there's more...", link: "https://github.com/nicholaspignatelli" },
+  {
+    name: "see more on github...",
+    link: "https://github.com/nicholaspignatelli",
+  },
 ];
 
 export default projects;

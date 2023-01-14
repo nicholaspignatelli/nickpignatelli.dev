@@ -1,6 +1,6 @@
 const jobs = [
   {
-    title: "Software Engineer",
+    title: "Software Engineer (Contract)",
     company: "HSBC",
     description: [
       "Leveraged React.js to build a modern component-driven UI for a new customer experience.",
@@ -18,7 +18,15 @@ const jobs = [
     ],
 
     durationArray: ["Jun 2021", "Mar 2022"],
-    techStack: ["Java", "Spring", "Swagger.io", "gradle", "JUnit", "log4j"],
+    techStack: [
+      "Java",
+      "SpringBoot",
+      "Swagger.io",
+      "gradle",
+      "JUnit",
+      "log4j",
+      "PostMan",
+    ],
   },
   {
     title: "Public Cloud Administrator (Co-op)",
@@ -28,7 +36,7 @@ const jobs = [
       "Efficiently managed AWS & Azure cloud resources, ensuring minimal costs and no wastage.",
     ],
     durationArray: ["May 2020", "Aug 2020"],
-    techStack: ["Microsoft Azure", "SALT Stack", "powershell"],
+    techStack: ["Microsoft Azure", "Powershell"],
   },
   {
     title: "Software Engineer (Co-op)",
@@ -37,9 +45,16 @@ const jobs = [
       "Built a fault-tolerant, asynchronous detection engine on the JVM, leveraging Kotlin, Kafka, ElasticSearch, increasing trading floor productivity by 15%.",
       "Automated the monitoring of event stream data, providing key trading floor executives real time feedback about the state of the infrastructure. Used PagerDuty for real time notifications.",
     ],
-    durationArray: ["May 2019", "Summer 2019"],
+    durationArray: ["May 2019", "Aug 2019"],
 
-    techStack: ["Kotlin", "Vert.x", "ElasticSearch", "Kafka"],
+    techStack: [
+      "Kotlin",
+      "Vert.x",
+      "ElasticSearch",
+      "Kafka",
+      "Mockito",
+      "JVM MBeans",
+    ],
   },
   {
     title: "Junior Programmer Analyst (Co-op)",
@@ -48,9 +63,9 @@ const jobs = [
       "Using a message-oriented integration pattern, built RESTful APIs to facilitate an ETL workflow for a payment modernization initiative. Used Java, IBM WebSphere MQ.",
       "Safely and successfully migrated data for 3000+ businesses with zero customer impact and 100% uptime.",
     ],
-    durationArray: ["Sept 2018", "December 2018"],
+    durationArray: ["Sept 2018", "Dec 2018"],
 
-    techStack: ["Java", "MySQL", "FTP"],
+    techStack: ["Java", "MySQL", "FTP", "IBM WebSphere", "REST APIs"],
   },
 ];
 
